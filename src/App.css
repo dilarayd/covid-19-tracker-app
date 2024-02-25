@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .t-global {
+    margin-top: 0;
+    color: #48AAD7;
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+
+  .t-for {
+    margin-top: 5px;
+    color: #48AAD7;
+    font-weight: bold;
+    font-size: 0.75rem;
+    font-style: italic;
+  }
+
+  #canvas-container {
+    width: 90%;
+    margin: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .box {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .blue-bx {
+    width: 100%;
+    background-color: #B1D7FE;
+    border-bottom: 1rem solid #5B79FF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+  }
+
+  .green-bx {
+    width: 100%;
+    background-color: #DDF6E2;
+    border-bottom: 1rem solid #7EFB83;
+  }
+
+  .pink-bx {
+    width: 100%;
+    background-color: #F4D7D7;
+    border-bottom: 1rem solid #FA7077;
+  }
+
+  .yellow-bx {
+    width: 100%;
+    background-color: #F5E1CA;
+    border-bottom: 1rem solid #F3E678;
+  }
+
+  .box-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1E252B;
+  }
+
+  .box-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1C2228;
+    padding-top: 0.5rem;
+  }
+
+  .box-date {
+    color: #6c6c6c;
+    font-weight: 500;
+  }
+
+  .box-comment {
+    font-weight: 500;
+  }
+
+  .select-box {
+    border: none;
+    border-bottom: 1.5px solid #aeaeae;
+    width: 80%;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .t-global {
+    margin-top: 0;
+    color: #48AAD7;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .t-for {
+    margin-top: 5px;
+    color: #48AAD7;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  #canvas-container {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    height: 500px;
+  }
+
+  .flex-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .box {
+    width: 10%;
+    margin: 20px;
+    text-align: left;
+    line-height: 2rem;
+    padding: 2rem;
+  }
+
+  .blue-bx {
+    background-color: #B1D7FE;
+    border-bottom: 1rem solid #5B79FF;
+  }
+
+  .green-bx {
+    background-color: #DDF6E2;
+    border-bottom: 1rem solid #7EFB83;
+  }
+
+  .pink-bx {
+    background-color: #F4D7D7;
+    border-bottom: 1rem solid #FA7077;
+  }
+
+  .yellow-bx {
+    background-color: #F5E1CA;
+    border-bottom: 1rem solid #F3E678;
+  }
+
+  .box-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1E252B;
+  }
+
+  .box-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1C2228;
+    padding-top: 0.5rem;
+  }
+
+  .box-date {
+    color: #6c6c6c;
+    font-weight: 500;
+  }
+
+  .box-comment {
+    font-weight: 500;
+  }
+
+  .select-box {
+    border: none;
+    border-bottom: 1.5px solid #aeaeae;
+    width: 350px;
+    margin: 2rem;
+  }
+}
